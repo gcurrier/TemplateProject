@@ -1,19 +1,21 @@
 {
   "name": "template-project",
   "version": "1.0.0",
-  "description": "A node project template using webpack, typescript, react and babel. Also included are various other packages to assist with asset and output management, as well as caching and some file handling.",
+  "description": "A node project template using webpack, typescript, react and babel. Also included are various other packages to assist with asset and output management, as well as caching and some file handling. See the READM for more info.",
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --mode development",
-    "start": "webpack-dev-server --mode development"
+    "build-dev": "webpack --mode development",
+    "build-prod": "webpack --mode production",
+    "start-dev": "webpack-dev-server --mode development"
   },
   "keywords": [
     "webpack",
     "webpack-dev-server",
     "typescript",
     "babel",
-    "react"
+    "react",
+    "react-dom"
   ],
   "author": "Glen Currier",
   "license": "GNU",
@@ -22,6 +24,7 @@
     "babel-cli": "^6.26.0",
     "babel-preset-react": "^6.24.1",
     "clean-webpack-plugin": "^0.1.19",
+    "compression-webpack-plugin": "^1.1.11",
     "css-loader": "^0.28.11",
     "csv-loader": "^2.1.1",
     "file-loader": "^1.1.11",
@@ -30,7 +33,9 @@
     "style-loader": "^0.20.3",
     "ts-loader": "^4.1.0",
     "typescript": "^2.7.2",
+    "uglifyjs-webpack-plugin": "^1.2.4",
     "webpack": "^4.2.0",
+    "webpack-bundle-analyzer": "^2.11.1",
     "webpack-cli": "^2.0.13",
     "webpack-dev-server": "^3.1.1"
   },
@@ -41,5 +46,11 @@
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "xml-loader": "^1.2.1"
+  },
+  "homepage": "https://gcurrier.github.io/TemplateProject/",
+  "bugs": "https://github.com/gcurrier/TemplateProject/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gcurrier/TemplateProject"
   }
 }
