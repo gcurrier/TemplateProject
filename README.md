@@ -47,9 +47,17 @@ There are currently two ways to run the project:
 - [ ] Incorporate a testing framework (such as Chai or Mocha)
 
 ## References 
-[webpack guides](https://webpack.js.org/guides/): Various guides to configuring the webpack.config file
+[webpack guides](https://webpack.js.org/guides/): Various guides to configuring the webpack.config file.
 
-[webpack-dev-server](https://webpack.js.org/configuration/dev-server/): Configuring the webpack development server
+[webpack-dev-server](https://webpack.js.org/configuration/dev-server/): Configuring the webpack development server.
+
+[html-webpack-plugin](https://github.com/jantimon/html-webpack-plugin#configuration) Configuration of the html-webpack-plugin package.
+
+[React, webpack and Typescript](https://www.typescriptlang.org/docs/handbook/react-&-webpack.html) A tutorial on how to wire up React, Webpack and Typescript.
+
+[Some notes on awesome-typescript-loader package](https://github.com/s-panferov/awesome-typescript-loader/blob/master/README.md)
 
 ## Comments or Suggestions
-This is a work in progress and will likely be so for a while as I get better at this. Thoughts and/or suggestions are welcome.
+This is a work in progress and will likely be so for a while as I get better at this. Thoughts and/or suggestions are welcome. 
+
+Incidentally, if you like this and want to use it, go for it...just give me a mention in the setup somewhere...
