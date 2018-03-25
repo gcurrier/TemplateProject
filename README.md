@@ -11,7 +11,8 @@ This project is an attempt at building a kind of "starter pack" for a semi-speci
 * 2018-03-25
 > Removed a few packages that did not appear to work as expected (in the context of other packages). For example, awesome-typescript-loader does not provide the chunk files with an ID during build time (the webpack.HashedModuleIdsPlugin is designed to do this when using ts-loader), so it was removed. Will use webpack-dev-server in favor of http-server (it just feels easier to configure).
 
-> Additionally, the xml-loader package was shifted to the "dependencies" tree (as indicated by the package README). Activated Hot Module Replacement for use in development and added optimization steps (uglify and compression).)
+> Additionally, the xml-loader package was shifted to the "dependencies" tree (as indicated by the package README). Activated Hot Module Replacement for use in development and added optimization steps (uglify and compression).
+
 
 ## Getting Started
 
@@ -70,4 +71,4 @@ There are currently two ways to run the project:
 ## Comments or Suggestions
 This is a work in progress and will likely be so for a while as I get better at this. Thoughts and/or suggestions are welcome. 
 
-Incidentally, if you like this and want to use it, go for it...just give me a mention in the setup somewhere...
+Incidentally, if you like this and want to use it, go for it...just give me a mention in your setup somewhere...
