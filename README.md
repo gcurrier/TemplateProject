@@ -2,11 +2,16 @@
 
 This project is an attempt at building a kind of "starter pack" for a semi-specific type of javascript project using node. The complaetion goal is to create a reusable prject template for building apps using Typescript and developed with the React library using ECMA2017 scripting (transpiled with Babel for Browser compatibility where necessary). In short, a development environment that is generic enough to suit most needs while also not being too restrictive.
 
-## Progress
-* 2018-03-25: 
+## Current Progress
+* 2018-03-24: 
 > Incorporated webpack, webpack-dev-server and type script successfully (along with a rudimentary application that can be used for 
 > testing. Also included is a means to lazy load designated modules, as well as incorporate required file assets (css, less, sass, xml,csv 
 > files) and build the template "index.html" page during the build process.
+
+* 2018-03-25
+> Removed a few packages that did not appear to work as expected (in the context of other packages). For example, awesome-typescript-loader does not provide the chunk files with an ID during build time (the webpack.HashedModuleIdsPlugin is designed to do this when using ts-loader), so it was removed. Will use webpack-dev-server in favor of http-server (it just feels easier to configure).
+
+> Additionally, the xml-loader package was shifted to the "dependencies" tree (as indicated by the package README)
 
 ## Getting Started
 
@@ -60,4 +65,4 @@ There are currently two ways to run the project:
 ## Comments or Suggestions
 This is a work in progress and will likely be so for a while as I get better at this. Thoughts and/or suggestions are welcome. 
 
-Incidentally, if you like this and want to use it, go for it...just give me a mention in the setup somewhere...
+Incidentally, if you like this and want to use it, go for it...just give me a mention in your setup somewhere...
