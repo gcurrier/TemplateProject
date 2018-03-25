@@ -4,13 +4,12 @@ This project is an attempt at building a kind of "starter pack" for a semi-speci
 
 ## Current Progress
 * 2018-03-24: 
-> Incorporated webpack, webpack-dev-server and type script successfully (along with a rudimentary application that can be used for 
-> testing. Also included is a means to lazy load designated modules, as well as incorporate required file assets (css, less, sass, xml,csv 
-> files) and build the template "index.html" page during the build process.
+1. Incorporated webpack, webpack-dev-server and type script successfully (along with a rudimentary application that can be used for testing. 
+2. Included is a means to lazy load designated modules, as well as incorporate required file assets (css, less, sass, xml,csv files) and build the template "index.html" page during the build process.
 
 * 2018-03-25
-> Removed a few packages that did not appear to work as expected (in the context of other packages). For example, awesome-typescript-loader does not provide the chunk files with an ID during build time (the webpack.HashedModuleIdsPlugin is designed to do this when using ts-loader), so it was removed. Will use webpack-dev-server in favor of http-server (it just feels easier to configure). 
-Additionally, the xml-loader package was shifted to the "dependencies" tree (as indicated by the package README). Activated Hot Module Replacement for use in development and added optimization steps (uglify and compression).
+1. Removed a few packages that did not appear to work as expected (in the context of other packages). For example, awesome-typescript-loader does not provide the chunk files with an ID during build time (the webpack.HashedModuleIdsPlugin is designed to do this when using ts-loader), so it was removed. Will use webpack-dev-server in favor of http-server (it just feels easier to configure). 
+2. Additionally, the xml-loader package was shifted to the "dependencies" tree (as indicated by the package README). Activated Hot Module Replacement for use in development and added optimization steps (uglify and compression).
 
 
 ## Getting Started
