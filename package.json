@@ -8,7 +8,13 @@
     "build": "webpack --mode development",
     "start": "webpack-dev-server --mode development"
   },
-  "keywords": ["webpack", "webpack-dev-server", "typescript", "babel", "react"],
+  "keywords": [
+    "webpack",
+    "webpack-dev-server",
+    "typescript",
+    "babel",
+    "react"
+  ],
   "author": "Glen Currier",
   "license": "GNU",
   "devDependencies": {
